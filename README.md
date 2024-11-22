@@ -37,15 +37,10 @@ Welcome to the official repository for **ZS-PRIME**, a novel framework for zero-
 ### **1. Training**
 To train the model on your diffusion MRI dataset, use the `zsprime_all_directions_all_slices.py` script.
 
-#### Command:
-```bash
-python zsprime_all_directions_all_slices.py --mode train --data_dir /path/to/dataset --output_dir /path/to/output --epochs 50
-```
-
 ---
 
 ### **2. Inference**
-To perform inference using the trained model, use the same script in `infer` mode.
+To perform inference using the trained model, use the script `zsprime_all_directions_all_slices_inference.py`.
 
 
 
